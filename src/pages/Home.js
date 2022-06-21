@@ -52,6 +52,7 @@ class Home extends Component {
         {/* When passing the AddTodo component, addTodo is a prop that is used in the 
         AddTodo.js file when handling the submit */}
         <AddTodo addTodo={this.addTodo} />
+        <deleteTodo deleteTodo={this.deleteTodo} />
         {/* When returning the Todos component, todos is a prop passed to the todos.js file
          to format and render the current todo list state */}
         <Todos todos={this.state.todos} deleteTodo={this.deleteTodo}/>
