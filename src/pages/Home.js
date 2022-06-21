@@ -3,7 +3,7 @@ import Todos from "../component/todos";
 import AddTodo from "../component/AddTodo";
 import "../pages/Home.css";
 import { id } from "date-fns/locale";
-import { ConstructionOutlined } from "@mui/icons-material";
+
 
 class Home extends Component {
   // Create a default state of this component with an empty list of todos.
